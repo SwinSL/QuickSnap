@@ -172,10 +172,10 @@
     <None Include="Resources\SwinGame.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\images\cardsBoard.png">
+    <None Include="Resources\fonts\Chunk.otf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\fonts\Chunk.otf">
+    <None Include="Resources\images\cardsBoard.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
