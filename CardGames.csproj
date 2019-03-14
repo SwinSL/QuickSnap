@@ -175,7 +175,13 @@
     <None Include="Resources\fonts\Chunk.otf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+<<<<<<< HEAD
     <None Include="Resources\images\cardsBoard.png" />
+=======
+    <None Include="Resources\sounds\slap.wav" />
+    <None Include="Resources\sounds\slap1.mp3" />
+    <None Include="Resources\sounds\slap2.mp3" />
+>>>>>>> 4c0793f... Added slap sounds
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
