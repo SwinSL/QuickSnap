@@ -176,9 +176,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Resources\images\cardsBoard.png" />
-    <None Include="Resources\sounds\slap1.wav" />
-    <None Include="Resources\sounds\slap3.wav" />
-    <None Include="Resources\sounds\slap2.wav" />
+    <None Include="Resources\sounds\slap.wav" />
+    <None Include="Resources\sounds\woosh.wav" />
+    <None Include="Resources\sounds\punch.wav" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
